@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    margin: 50px 30px;
+    padding: 50px 30px;
+    background-color: rgb(246, 228, 187);
+    
+    
+
+}
+
+.box2{
+    border: 5px solid blue;
+    width: 250px;
+    padding: 10px 10px 50px 10px;
+    background-color: rgb(220, 219, 219);
+}
+.box3{
+    border: 20px groove #0202d1;
+    background-color: rgb(248, 215, 199);
+}
+.border{
+    border: 3px solid black;
+    width: 190px;
+    padding: 30px 10px;
+    line-height: 20px;
+    background-color: white;
+}
+.space{
+   font-size: 30px;
+   padding: 10px 3px;
+}
