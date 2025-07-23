@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main{
+    margin-top: 20px;
+    height: 600px;
+    background-color: #4b4b4b;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.main h2{
+    text-align: center;
+}
+
+.main p{
+    padding: 20px 0;
+}
+
+.box{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+}
+
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: #f4de8d;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main nav ul{
+    padding: 10px 20px;
+}
+
+.box-1{
+    height: 200px;
+    background-color: #b2c824;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box-2{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-3{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.box-4{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-5{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-6{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box-7{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+
+.box-8{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box-9{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.box-10{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.box-11{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.box-12{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+
+.box-13{
+    height: 250px;
+    background-color: #b2c824;
+    display: flex;
+    flex-flow: column nowrap;
+}
